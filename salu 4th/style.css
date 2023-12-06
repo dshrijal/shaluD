@@ -1,0 +1,48 @@
+* this is to remove bullets and listing style*/
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+/* to style nav bar */
+nav{
+    
+background-color: #333;
+
+}
+/* for horizontal layout*/
+nav ul{
+display: flex; /*flexbox used for a horizontal layout*/
+justify-content: space-around;/* distribute items*/
+padding: 10px; /*added padding for spacing*/
+
+}
+/* style individual navigations links*/
+nav ul li{
+
+    margin: 0;
+
+}
+
+nav ul li a{
+    text-decoration: none; /* to remove underline from links*/
+    color: white;/*color of nav link*/
+    padding: 10px 20px;/* adding some padding to the links for spacing*/
+
+}
+/* now giving hoever effects in links*/
+nav ul li a:hover{
+    background-color: #555;/*it change bg color on hover*/
+}
+/*color for button*/
+button{
+    color: red;
+
+}
+/*to set footer*/
+footer{
+    text-align: center;
+    
+}
+   
